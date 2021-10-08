@@ -59,7 +59,6 @@ a{
 
 
 .list-member{
-
     display: flex;
 }
 
@@ -92,5 +91,17 @@ a{
     opacity: 0.8;
 }
 
+@media  (max-width : 46.1875em) {
+    #nav > ul > li {
+        font-size:18px;
+    } 
 
+    .link-member>b{
+        font-size: 18px;
+    }
+
+    .member>h1{
+        font-size:24px;
+    }
+}
 
